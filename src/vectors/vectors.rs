@@ -1,4 +1,4 @@
-pub fn sort_vector_floats(v: Vec<f32>) -> Vec<f32> {
+pub fn sort_vector_floats(v: &Vec<f32>) -> Vec<f32> {
     let mut cvec: Vec<f32> = v.clone();
 
     cvec.sort_by(|x:&f32, y:&f32| {
